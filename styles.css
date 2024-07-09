@@ -1,0 +1,125 @@
+.carousel-caption {
+    animation: fadeInUp 2s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+    bottom: 0; 
+    left: 0; 
+    padding: 20px; 
+    position: absolute; 
+    box-sizing: border-box; 
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    width: 100%; 
+    height: 500px; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #212529; /* Ensuring the background color is consistent */
+    color: white; /* Ensuring the text color is consistent */
+    padding: 1em 0; /* Ensuring the padding is consistent */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .fa-map-marker-alt,
+footer .fa-phone,
+footer .fa-envelope {
+    margin-right: 10px;
+}
+
+header .container.d-flex {
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+#cart-count {
+    display: none; 
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #333333; 
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.founder-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+}

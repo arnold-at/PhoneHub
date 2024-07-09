@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneHub Peru - Contáctanos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        header, main, footer {
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        form {
+            text-align: left;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+
+        .nav-btn {
+            font-weight: bold;
+            color: #fff;
+            background-color: #0000ff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            text-decoration: none; 
+            margin: 0 10px; 
+            display: inline-block; 
+        }
+
+        .nav-btn:hover {
+            background-color: #020247; 
+            transform: scale(1.05);
+        }
+
+        .btn-success {
+            background-color: #28a745; 
+            border: none;
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .btn-success:hover {
+            background-color: #000000; 
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-center">PhoneHub Peru</h1>
+            <nav class="text-center">
+                <a href="index.html" class="btn nav-btn">Inicio</a>
+                <a href="services.html" class="btn nav-btn">Servicios</a>
+                <a href="about.html" class="btn nav-btn">Quiénes Somos</a>
+                <a href="products.html" class="btn nav-btn">Productos</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="contact">
+                <h2 class="text-center my-4">Contáctanos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Surname:</label>
+                        <input type="text" class="form-control" id="surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="dni">DNI:</label>
+                        <input type="text" class="form-control" id="dni">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Send</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 PhoneHub Peru. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

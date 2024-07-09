@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hub - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="bg-primary text-white py-3">
+        <div class="container d-flex align-items-center">
+            <img src="https://media.licdn.com/dms/image/C4E0BAQHnlSMFA7-hTg/company-logo_200_200/0/1631343163308?e=2147483647&v=beta&t=dA7PDUWbRCbHQpYelCj4jYzDJIHY8cxsXI1SWQqduF0" alt="Phone Hub Logo" class="me-3" style="width: 50px; height: 50px;">
+            <h1 class="h1 mb-0">Phone Hub</h1>
+            <nav class="navbar navbar-expand-lg navbar-light ms-auto">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="services.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="about.html">Quiénes Somos</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="products.html">Productos</a></li>
+                        </ul>
+                        <button class="btn btn-outline-light position-relative" data-bs-toggle="modal" data-bs-target="#cartModal">
+                            <i class="fas fa-shopping-cart"></i> Carrito
+                            <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="display: none;">
+                                0
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="products" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Nuestros Productos</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://www.peru-smart.com/wp-content/uploads/2024/01/CELU691AZUL-256GB_0.jpg" class="card-img-top" alt="Redmi Note 13 Pro Verde">
+                            <div class="card-body">
+                                <h5 class="card-title">Redmi Note 13 Pro 8GB+256GB Verde</h5>
+                                <p class="price">Precio especial: S/ 1,179.00 <span class="old-price">S/ 1,299.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Redmi Note 13 Pro Verde" data-price="1179.00" data-img="https://www.peru-smart.com/wp-content/uploads/2024/01/CELU691AZUL-256GB_0.jpg">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://oechsle.vteximg.com.br/arquivos/ids/17427911-1000-1000/2570748_1.jpg" class="card-img-top" alt="Redmi Note 13 Pro Púrpura">
+                            <div class="card-body">
+                                <h5 class="card-title">Redmi Note 13 Pro 8GB+256GB Púrpura</h5>
+                                <p class="price">Precio especial: S/ 1,179.00 <span class="old-price">S/ 1,299.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Redmi Note 13 Pro Púrpura" data-price="1179.00" data-img="https://oechsle.vteximg.com.br/arquivos/ids/17427911-1000-1000/2570748_1.jpg">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/18483007_1/w=1500,h=1500,fit=pad" class="card-img-top" alt="Redmi Note 13 Pro Púrpura">
+                            <div class="card-body">
+                                <h5 class="card-title">Audífonos AirPods Max Azul</h5>
+                                <p class="price">Precio especial: S/ 2,699.00 <span class="old-price">S/ 2,999.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Audífonos AirPods Max Azul" data-price="2699.00" data-img="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/18483007_1/w=1500,h=1500,fit=pad">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://coolboxpe.vtexassets.com/arquivos/ids/195611-800-auto?v=637741516064100000&width=800&height=auto&aspect=true" class="card-img-top" alt="Airpods 3ra generación">
+                            <div class="card-body">
+                                <h5 class="card-title">Airpods 3ra generación resistente al agua IPX4, duración máx. 6 horas, carga inalámbrica Qi, blanco</h5>
+                                <p class="price">Precio especial: S/ 779.90 <span class="old-price">S/ 1,349.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Airpods 3ra generación" data-price="779.90" data-img="https://coolboxpe.vtexassets.com/arquivos/ids/195611-800-auto?v=637741516064100000&width=800&height=auto&aspect=true">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/18673462_1/w=1500,h=1500,fit=pad" class="card-img-top" alt="Iphone 13 Rosado">
+                            <div class="card-body">
+                                <h5 class="card-title">Celular Apple Iphone 13 128GB Rosado</h5>
+                                <p class="price">Precio especial: S/ 2,779.00 <span class="old-price">S/ 5,099.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Iphone 13 Rosado" data-price="2779.00" data-img="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/18673462_1/w=1500,h=1500,fit=pad">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://promart.vteximg.com.br/arquivos/ids/7728535-1000-1000/image-fae0241a314d4f3ea52376d1196012ad.jpg?v=638381052061830000" class="card-img-top" alt="Iphone 15 Verde">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 15 128GB Chip Físico Verde</h5>
+                                <p class="price">Precio especial: S/ 3,299.00 <span class="old-price">S/ 4,299.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Iphone 15 Verde" data-price="3299.00" data-img="https://promart.vteximg.com.br/arquivos/ids/7728535-1000-1000/image-fae0241a314d4f3ea52376d1196012ad.jpg?v=638381052061830000">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://home.ripley.com.pe/Attachment/WOP_5/2065329700329/2065329700329_2.jpg" class="card-img-top" alt="Samsung Galaxy A15">
+                            <div class="card-body">
+                                <h5 class="card-title">Celular Samsung Galaxy A15 256GB 8GB RAM 50MP + 5MP + 2MP 6.5" Negro</h5>
+                                <p class="price">Precio especial: S/ 749.00 <span class="old-price">S/ 799.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Samsung Galaxy A15" data-price="749.00" data-img="https://home.ripley.com.pe/Attachment/WOP_5/2065329700329/2065329700329_2.jpg">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://www.honorperu.pe/media/catalog/product/cache/deaf12c726c019462dcd02884cec40ac/4/2/428_428_5ab6d2e89a89a6f12e37377e12b7718ea69e4311f8627e8dmp.jpg" class="card-img-top" alt="Honor 200 Lite">
+                            <div class="card-body">
+                                <h5 class="card-title">Honor 200 Lite Midnight Black</h5>
+                                <p class="price">Precio especial: S/ 1,999.00 <span class="old-price">S/ 2,399.00</span></p>
+                                <button class="btn btn-primary w-100 add-to-cart" data-name="Honor 200 Lite" data-price="1999.00" data-img="https://www.honorperu.pe/media/catalog/product/cache/deaf12c726c019462dcd02884cec40ac/4/2/428_428_5ab6d2e89a89a6f12e37377e12b7718ea69e4311f8627e8dmp.jpg">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white pt-4 pb-2">
+        <div class="container">
+            <div class="row">
+                <!-- Logo and Description -->
+                <div class="col-md-3 mb-4">
+                    <h5>Phone Hub</h5>
+                    <p>Tu tienda de productos de telefonía en Perú. Ofrecemos una amplia variedad de productos con la mejor calidad y al mejor precio.</p>
+                </div>
+                <!-- Useful Links -->
+                <div class="col-md-3 mb-4">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="services.html" class="text-white">Servicios</a></li>
+                        <li><a href="about.html" class="text-white">Quiénes Somos</a></li>
+                        <li><a href="products.html" class="text-white">Productos</a></li>
+                        <li><a href="contact.html" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-md-3 mb-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Ejemplo 123, Lima, Perú</li>
+                        <li><i class="fas fa-phone"></i> +51 123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@phonehub.com</li>
+                    </ul>
+                </div>
+                <!-- Social Media Links -->
+                <div class="col-md-3 mb-4">
+                    <h5>Síguenos</h5>
+                    <div>
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-3">
+                    <p>&copy; 2024 Phone Hub. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Carrito Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Carrito de Compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group" id="cart-items-modal"></ul>
+                    <h5 class="mt-4" id="cart-total-modal">Total: S/ 0.00</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a href="checkout.html" class="btn btn-primary">Proceder al Pago</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
